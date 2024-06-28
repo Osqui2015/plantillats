@@ -36,14 +36,11 @@ my-vue-app/
 ├── vite.config.ts
 └── ... (otros archivos de configuración)
 
-bash
-Copiar código
 
 ## Uso
 
 ### Clonar el repositorio
 
-```bash
 git clone https://github.com/tu-usuario/nombre-del-repo.git nombre-nuevo-proyecto
 cd nombre-nuevo-proyecto
 Instalar dependencias
@@ -62,8 +59,7 @@ Puedes usar el script de inicialización para automatizar la creación de nuevos
 
 Ejecutar el script de configuración para crear un nuevo proyecto:
 
-bash
-Copiar código
+
 npm run setup nombre-nuevo-proyecto
 Personalización
 Puedes personalizar este template según tus necesidades modificando los archivos de configuración y agregando las dependencias necesarias.
@@ -71,8 +67,7 @@ Puedes personalizar este template según tus necesidades modificando los archivo
 Configuración de Tailwind CSS
 El archivo tailwind.config.js ya está configurado para procesar archivos Vue:
 
-js
-Copiar código
+
 // tailwind.config.js
 module.exports = {
   content: [
@@ -118,6 +113,7 @@ const pinia = createPinia()
 pinia.use(piniaPluginPersistedstate)
 
 export default pinia
+
 Contribuir
 Si encuentras algún problema o tienes sugerencias para mejorar este template, por favor abre un issue o envía un pull request.
 
